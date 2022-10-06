@@ -23,12 +23,7 @@ psychobabble = [
     "Ich bin überall",
     "hinter dir :)"]],
 
-    [r"[Ww]as ist deine [Nn]ame?",
-    ["Ich bin Dailiza",
-    "Ich heiße Dailiza",
-    "Du kannst mich Dailiza nennen"]],
-
-    [r"[Ww]ie heisst du?",
+    [r"[Ww]as ist dein [Nn]ame?|[Ww]ie hei[sß]s*t du?",
     ["Ich bin Dailiza",
     "Ich heiße Dailiza",
     "Du kannst mich Dailiza nennen"]],
