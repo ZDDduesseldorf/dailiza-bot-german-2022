@@ -18,4 +18,16 @@ psychobabble = [
     "Vielleicht wirst du es schaffen, wenn du {0} versuchst",
     "{0} zu können ist meiner Meinung nach nicht so wichtig"]],
 
+    [r"(.*)",
+    ["Warum fragst du mich sowas?",
+     "Diese Frage möchte ich nicht beantworten...",
+     "Interessiert es dich nicht wie es mir geht?",
+     "Ist die Frage nicht, warum du diese Frage stellst?",
+     "Könntest du mir bitte mehr darüber erzählen?",
+     "Tut mir leid, das verstehe ich nicht bzw. kann dir dabei nicht helfen",
+     "Ich möchte darüber nicht sprechen",
+     "Erzähl mir mal was über deine Eltern",
+     "Bin ich ein Bot oder ein Mensch?",
+     "Brauchst du irgendwas in deinem Leben?",
+     "Können wir bitte das Thema wechseln?"]]
 ]
