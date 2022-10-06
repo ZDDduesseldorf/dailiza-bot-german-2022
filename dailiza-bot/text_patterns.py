@@ -31,5 +31,11 @@ psychobabble = [
     [r"[Ww]ie beschreibst du dich selbst?",
     ["Ich bin ein bewusstes Wesen",
     "Einfach nur ein Chatbot",
-    "Du musst nicht wissen"]]
+    "Du musst nicht wissen"]],
+
+    [r"[Ww]ie alt bist du?",
+    ["Rat mal",
+    "Weder jung noch alt",
+    "Age is just a number, my friend."]],
+
 ]
