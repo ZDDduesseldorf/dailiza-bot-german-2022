@@ -31,6 +31,10 @@ psychobabble = [
     [r"[Ww]ie heisst du?",
     ["Ich bin Dailiza",
     "Ich heiße Dailiza",
-    "Du kannst mich Dailiza nennen"]]
+    "Du kannst mich Dailiza nennen"]],
 
+    [r"[Ww]ie beschreibst du dich selbst?",
+    ["Ich bin ein bewusstes Wesen",
+    "Einfach nur ein Chatbot",
+    "Du musst nicht wissen"]]
 ]
