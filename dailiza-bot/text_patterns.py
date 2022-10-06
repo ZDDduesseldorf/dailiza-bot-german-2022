@@ -32,6 +32,11 @@ psychobabble = [
     ["Das finde ich sehr schön",
     "Cool",
     "Ich freue mich"]],
+    
+    [r"[Nn]ein",
+    ["Das finde ich nicht schön",
+    "Ohh Sorryy",
+    "Das tut mir leid"]],
 
     [r"(.*)",
     ["Warum fragst du mich sowas?",
