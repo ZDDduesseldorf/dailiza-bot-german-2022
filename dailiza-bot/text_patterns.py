@@ -17,6 +17,11 @@ psychobabble = [
     ["Wie kommst du darauf, dass du {0} nicht kannst",
     "Vielleicht wirst du es schaffen, wenn du {0} versuchst",
     "{0} zu können ist meiner Meinung nach nicht so wichtig"]],
+    
+    [r"Wie (.*)",
+    ["Vieleicht kannst du das googlen?",
+    "Ich kann dir dabei leider nicht helfen",
+    "Ich möchte mich dazu nicht äußern"]],
 
     [r"(.*)",
     ["Warum fragst du mich sowas?",
