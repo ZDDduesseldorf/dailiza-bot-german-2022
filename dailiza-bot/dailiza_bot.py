@@ -28,6 +28,9 @@ def run_dailiza_bot():
     user_input = ""
     while "exit" not in user_input:
         user_input = input(">> ")
+        if "Bye".lower() in user_input:
+            print("Bye ;)")
+            break
         print(dailiza_answer(user_input))
 
 
