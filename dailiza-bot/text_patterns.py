@@ -27,6 +27,11 @@ psychobabble = [
     ["Ich kenne mich damit nicht aus",
     "Weil Google dir dabei besser helfen kann",
     "Das weiß ich nicht"]],
+    
+    [r"[Jj]a",
+    ["Das finde ich sehr schön",
+    "Cool",
+    "Ich freue mich"]],
 
     [r"(.*)",
     ["Warum fragst du mich sowas?",
