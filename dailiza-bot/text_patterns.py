@@ -13,9 +13,14 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
-    [r"Wwarum?",
+    [r"[Ww]arum?",
     ["Du sagst mir",
     "Keine Ahnung. Ich bin nur ein Rechner.",
     "Das wollte ich auch gleich fragen"]],
+
+    [r"[Ww]o bist du?",
+    ["Ich wohne im digitalen Raum des Universums",
+    "Ich bin überall",
+    "hinter dir :)"]]
 
 ]
