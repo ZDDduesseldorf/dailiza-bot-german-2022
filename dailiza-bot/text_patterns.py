@@ -13,4 +13,9 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
+    [r"[Ii]ch kann (.*) nicht",
+    ["Wie kommst du darauf, dass du {0} nicht kannst",
+    "Vielleicht wirst du es schaffen, wenn du {0} versuchst",
+    "{0} zu können ist meiner Meinung nach nicht so wichtig"]],
+
 ]
