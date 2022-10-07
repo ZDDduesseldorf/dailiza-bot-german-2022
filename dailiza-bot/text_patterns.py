@@ -17,5 +17,10 @@ psychobabble = [
     ["Vielleicht, weiß ich auch nicht.",
     "Was denkst du?",
     "Sicher, wenn du mich das nennen will"]],
+    
+    [r"[Ww]as denkst du daran?",
+    ["ich finde es faszinierend und möchte es verstehen.",
+    "Warum interessierst du dich für die Meinung eines Roboters?",
+    "Ich kann mir aus irgendeinem Grund keine Meinung dazu bilden."]],
 
 ]
