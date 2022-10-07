@@ -2,6 +2,7 @@ import random
 import re
 from reflection import reflect
 from text_patterns import psychobabble
+from text_patterns import neutral_responses
 
 
 def dailiza_answer(user_input):
@@ -12,9 +13,16 @@ def dailiza_answer(user_input):
     # Test input string for all known text patter in pychobabble
     for pattern, responses in psychobabble:
         match = re.search(pattern, str(user_input))
+        do_i_know_this = False
         if match:
+            do_i_know_this = True
             rspns = random.choice(responses)
-            return rspns.format(*[reflect(g) for g in match.groups()])    
+            return rspns.format(*[reflect(g) for g in match.groups()])
+    if do_i_know_this == False:
+        if user_input == "":
+            return "Wie sollen wir ohne Wörter reden?"
+            
+        return random.choice(neutral_responses)    
 
 
 def run_dailiza_bot():
