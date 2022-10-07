@@ -54,3 +54,5 @@ psychobabble = [
     "Bist du okay???"]]
 
 ]
+
+neutral_responses = ["Sie sollten jemand anderen danach fragen.","Tut mir leid, leider ist das außer meines Fachgebiets.","Ich weiß nichts über dieses Thema, sorry."]
