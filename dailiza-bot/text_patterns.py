@@ -22,5 +22,10 @@ psychobabble = [
     ["ich finde es faszinierend und möchte es verstehen.",
     "Warum interessierst du dich für die Meinung eines Roboters?",
     "Ich kann mir aus irgendeinem Grund keine Meinung dazu bilden."]],
+    
+    [r"[Ww]ie geht(.*)",
+    ["Mir geht's gut",
+    "ein Software-Update entfernt von gut",
+    "Ich verbringe mein ganzes Leben fürs Reden mit Menschen. Was glauben sie, wie es mir geht?"]],
 
 ]
