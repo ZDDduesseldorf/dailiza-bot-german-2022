@@ -11,7 +11,7 @@ psychobabble = [
     [r"Ich brauche (.*)",
     ["Warum brauchst du {0}?",
     "Würde {0} dir denn wirklich helfen?",
-    "Bist du sicher, dass du {0} brauchst?"]],
+    "Bist du sicher, dass du {0} brauchst? "]],
 
     [r"Ich habe (.*)",
     ["Warum hast du {0}?",
