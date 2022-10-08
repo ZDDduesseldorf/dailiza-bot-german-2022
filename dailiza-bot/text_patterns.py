@@ -27,4 +27,9 @@ psychobabble = [
     ["Interessant, warum denkst du {0}?",
     "Bringt dich {0} zu denken weiter?",
     "Was genau meinst du mit {0} denken?"]],
+    
+    [r"Magst du (.*)",
+    ["Warum sollte ich {0} mögen?",
+    "Das weiß ich nicht genau. Magst du {0}?",
+    "Schwierige Frage, ich kann dir nicht dirket sagen ob ich {0} mag."]],
 ]
