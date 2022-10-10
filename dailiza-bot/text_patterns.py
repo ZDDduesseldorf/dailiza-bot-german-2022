@@ -28,5 +28,10 @@ psychobabble = [
     "Wie kommst du denn jetzt auf {0}? ",
     " {0} ist mal so, mal so. Schwierig zu sagen..."]],
 
+    [r"Magst du (.*) ",
+    ["hm, lass mich mal überlegen ob ich {0} mag....   Irgendwie überfordert mich {0} manchmal.",
+    "Ich kenne keinen, der {0} nicht mag! ",
+    " {0} kann ich in meinem Leben nicht gebrauchen."]],
+
 
 ]
