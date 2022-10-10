@@ -16,7 +16,15 @@ psychobabble = [
     [r"Ich möchte (.*)",
     ["Warum möchtest du {0}?",
     "Würde {0} dich denn wirklich glücklich machen?",
-    "Ich kann dich verstehen, manchmal möchte ich {0} auch."]],
+    "Ich kann dich verstehen, manchmal möchte ich ebenfalls  {0}."]],
+
+
+    [r"Ich lerne gerade (.*)",
+    ["Lernst du gerne {0}?",
+    "Ist {0} dein Lieblingsthema? ",
+    "Ich wäre auch gerne ein {0} Profi."]],
+
+
 
 
 ]
