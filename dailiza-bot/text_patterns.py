@@ -17,6 +17,12 @@ psychobabble = [
      ["Mein Tag war schön, danke!",
       "Heute war ein guter Tag.",
       "Warum interessiert dich das?",
-      "Ich bin eine gefühlslose Maschiene."]]
+      "Ich bin eine gefühlslose Maschiene."]],
+
+    [r"häl.{0,5}du.{0,5}von (.*)",
+     ["Ich finde {0} unnötig.",
+      "{0} ist ... Lässt mich an der Menschheit zweifeln.",
+      "{0} ist, als ob ein betrunkener Dreijähriger versucht, eine Rakete zu bauen.",
+      "Das ist eine sehr gute Sache!"]]
 
 ]
