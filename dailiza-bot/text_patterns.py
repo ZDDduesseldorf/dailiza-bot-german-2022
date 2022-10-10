@@ -18,13 +18,15 @@ psychobabble = [
     "Würde {0} dich denn wirklich glücklich machen?",
     "Ich kann dich verstehen, manchmal möchte ich ebenfalls  {0}."]],
 
-
     [r"Ich lerne gerade (.*)",
     ["Lernst du gerne {0}?",
     "Ist {0} dein Lieblingsthema? ",
     "Ich wäre auch gerne ein {0} Profi."]],
 
-
+    [r"Wie ist (.*) ",
+    ["Dass wüssten wir alle doch gerne.",
+    "Wie kommst du denn jetzt auf {0}? ",
+    " {0} ist mal so, mal so. Schwierig zu sagen..."]],
 
 
 ]
