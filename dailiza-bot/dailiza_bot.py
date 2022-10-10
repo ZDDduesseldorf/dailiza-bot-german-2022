@@ -14,7 +14,8 @@ def dailiza_answer(user_input):
         match = re.search(pattern, str(user_input))
         if match:
             rspns = random.choice(responses)
-            return rspns.format(*[reflect(g) for g in match.groups()])
+            rspns_frmt = rspns.format(*[reflect(g) for g in match.groups()])
+            return rspns_frmt[0].upper() + rspns_frmt[1:]
 
 
 def run_dailiza_bot():
