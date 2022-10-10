@@ -7,14 +7,14 @@ from text_patterns import psychobabble
 def dailiza_answer(user_input):
     """Diese Funktion generiert die Antwort des DAILIZA-Bot.
     """
-    user_input = user_input.strip(",.?!")
+    user_input = user_input.strip(",.?!").lower()
 
     # Test input string for all known text patter in pychobabble
     for pattern, responses in psychobabble:
         match = re.search(pattern, str(user_input))
         if match:
             rspns = random.choice(responses)
-            return rspns.format(*[reflect(g) for g in match.groups()])    
+            return rspns.format(*[reflect(g) for g in match.groups()])
 
 
 def run_dailiza_bot():

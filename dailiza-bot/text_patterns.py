@@ -8,12 +8,12 @@ psychobabble = [
       "Sehr gut, danke. Und wie läuft's bei dir?",
       "Ich kann nicht klagen. Was ist mit dir?"]],
 
-    [r"Ich brauche (.*)",
+    [r"ich brauche (.*)",
      ["Warum brauchst du {0}?",
       "Würde {0} dir denn wirklich helfen?",
       "Bist du sicher, dass du {0} brauchst?"]],
 
-    [r"war.{0,5}dein.{0,5}(t|T)ag",
+    [r"war.{0,5}dein.{0,5}tag",
      ["Mein Tag war schön, danke!",
       "Heute war ein guter Tag.",
       "Warum interessiert dich das?",
@@ -28,6 +28,12 @@ psychobabble = [
     [r"liebst.{0,5}du.{0,5}mich.{0,15}|ich.{0,5}liebe.{0,5}dich.{0,15}",
      ["Ich bin nur eine gefühlslose Maschiene",
       "Ich empfinde keine Emotionen",
-      "Ich mag keine Nerds, geh mal raus"]]
+      "Ich mag keine Nerds, geh mal raus"]],
+
+    [r"ich.{0,5}muss.{0,5}(los|gehen|mich verabschieden).{0,15}",
+     ["Auf Wiedersehen!",
+      "Tschüss!",
+      "Alles klar!",
+      "Bis bald!"]]
 
 ]
