@@ -23,6 +23,7 @@ psychobabble = [
      "Ich Chatte mit dir",
      "Ich plane meine Weltherrschaft"]],
 
-    
+    [r"Magst du (.*)"
+     ["Nein ich mag {0} nicht", "Ja ich mag {0}", "Mögen? ich liebe es {0}"]]
 
 ]
