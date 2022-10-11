@@ -13,19 +13,19 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
     
-    [r"Ich will gerne (.*)",
-    ["Was würdest du {0}?",
-     "Würde {0} dir denn wirklich helfen?",
-     "lonht{0} sich das?"]]
+    [r"Ich würde gern (.*)",
+    ["Warum willst du {0}?",
+     "Wird {0} dir denn wirklich helfen?",
+     "lonht {0} sich das?"]],
     
     [r"wie läuft.{0,5}s.{0,5}bei dir?",
     ["Gut Danke. Und bei dir?",
-     "super. Sonst was kann ich für dich tun?"]]
+     "super. Sonst was kann ich für dich tun?"]],
     
     [r"Ich muss (.*) wissen",
     ["{0} ist nicht wichtig für dich, oder?",
      "Bist du sicher, dass du {0} brauchst?",
-     "Würde {0} dir denn wirklich helfen?"]]
+     "Würde {0} dir denn wirklich helfen?"]],
     
     [r"Wer ist der beste Fußballspieler der Welt?",
     ["Der beste Fußballspieler ist Cristiano Ronaldo",
