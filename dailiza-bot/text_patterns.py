@@ -17,4 +17,9 @@ psychobabble = [
      "Was würdest du {0}?",
      "Würde {0} dir denn wirklich helfen?",
      "lonht{0} sich das?"]
+    
+    [r"wie läuft deinen Tag?",
+     "Gut Danke. und dein tag?",
+     "super. Sonst was kann ich für dich tun?"]
 ]
+
