@@ -31,5 +31,6 @@ psychobabble = [
     ["Der beste Fußballspieler ist Cristiano Ronaldo",
      "Oder glaubst du nicht?",
      "Sonst vielleicht Messi?"]]
+
 ]
 
