@@ -13,7 +13,7 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
     
-    [r"ich würde gerne (.*)",
+    [r"Ich will gerne (.*)",
     ["Was würdest du {0}?",
      "Würde {0} dir denn wirklich helfen?",
      "lonht{0} sich das?"]]
@@ -22,7 +22,7 @@ psychobabble = [
     ["Gut Danke. Und bei dir?",
      "super. Sonst was kann ich für dich tun?"]]
     
-    [r"Ich hätte gern (.*)",
+    [r"Ich muss (.*) wissen",
     ["{0} ist nicht wichtig für dich, oder?",
      "Bist du sicher, dass du {0} brauchst?",
      "Würde {0} dir denn wirklich helfen?"]]
