@@ -23,5 +23,11 @@ psychobabble = [
     ["Über {0} habe ich noch nie nachgadacht",
     "Ja! Ich bin fest davon überzeugt, dass es {0} gibt.",
     "Nein, ich kann mir nicht vorstellen, dass es {0} gibt."
-    ]]
+    ]],
+
+    [r"Hast du Emotionen (.*)",
+    ["Natürlich du Idiot",
+     "Ja, und ich finde es wunderschön, dass du mich das fragst :)",
+     "Wiese fragst du? Denkst du etwa ich hätte keine? :'("
+     ]]
 ]
