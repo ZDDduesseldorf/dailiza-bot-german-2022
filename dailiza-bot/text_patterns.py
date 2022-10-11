@@ -17,5 +17,11 @@ psychobabble = [
     ["Ist {0} dein innigster Wunsch?",
     "Wie glücklich würde dich {0} machen?",
     "Denkst du oft an {0}?"
+    ]],
+    
+    [r"glaubst du an (.*)",
+    ["Über {0} habe ich noch nie nachgadacht",
+    "Ja! Ich bin fest davon überzeugt, dass es {0} gibt.",
+    "Nein, ich kann mir nicht vorstellen, dass es {0} gibt."
     ]]
 ]
