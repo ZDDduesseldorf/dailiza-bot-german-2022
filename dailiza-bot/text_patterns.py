@@ -22,4 +22,10 @@ psychobabble = [
     ["Das klingt wirklich nicht so gut, kann ich dir irgendwie helfen",
     "Was fehlt dir denn, weshalb es dir schlecht geht?",
     "das tut mir leid, brauchst du irgendetwas?"]],
+    
+    [r".", 
+    ["Das verstehe ich leider nicht, frag mich was anderes",
+    "Keine Ahnung wovon du sprichst, erzähl mir liber etwas über dich",
+    "Brauchst du irgendetwas?"]],
+    
 ]
