@@ -13,8 +13,13 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
-    [r"(?<=mir\s)*[\w\s]*gut", 
+    [r"(?<=mir\s)[\w\s]*gut", 
     ["Das freut mich, hast du noch irgendeine andere Fragen?",
     "Kann ich dir noch mit irgendetwas anderem behilflich sein?",
     "OK cool, brauchst du noch irgendetwas?"]],
+
+    [r"(?<=mir\s)+[\w\s]*(schlecht|nicht[\w\s]*gut)", 
+    ["Das klingt wirklich nicht so gut, kann ich dir irgendwie helfen",
+    "Was fehlt dir denn, weshalb es dir schlecht geht?",
+    "das tut mir leid, brauchst du irgendetwas?"]],
 ]
