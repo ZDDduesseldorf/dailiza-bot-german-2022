@@ -16,6 +16,13 @@ psychobabble = [
     [r"Wie findest du (.*)",
     ["Sehr gut und du?",
     "Nicht so gut und du?",
-    "Ich möchte meine Meinung dazu nicht äußern"]]
+    "Ich möchte meine Meinung dazu nicht äußern"]],
+
+    [r"Was machst du?"
+     ["Nichts",
+     "Ich Chatte mit dir",
+     "Ich plane meine Weltherrschaft"]],
+
+    
 
 ]
