@@ -29,5 +29,11 @@ psychobabble = [
     ["Natürlich du Idiot",
      "Ja, und ich finde es wunderschön, dass du mich das fragst :)",
      "Wiese fragst du? Denkst du etwa ich hätte keine? :'("
-     ]]
+     ]],
+    
+    [r"magst du (.*)",
+    ["Nein, ich hasse {0}!",
+     "Ja, {0} ist mega!",
+     "was ist {0}?"
+    ]]
 ]
