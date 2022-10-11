@@ -12,5 +12,25 @@ psychobabble = [
     ["Warum brauchst du {0}?",
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
+    
+    [r"Denkst du (.*)",
+    ["Warum sollte ich {0} denken?",
+    "Warum ist es dir wichtig was ich denke?",
+    "Wichtiger ist doch was du denkst."]],
+    
+    [r"Ich denke (.*)",
+    ["Warum denkst du {0}?",
+    "Warum denkst du über {0} nach?",
+    "Gut dass du dir über Dinge gedanken machst!"]],
+    
+    [r":[)D]",
+    [":D",
+    ":))",
+    ":0"]],
+    
+    [r"Bist du ein [Rr]?.[bB]ot[er]*",
+    ["Ja",
+    "Nein",
+    "Was geht dich das an, Pisser?"]],
 
 ]
