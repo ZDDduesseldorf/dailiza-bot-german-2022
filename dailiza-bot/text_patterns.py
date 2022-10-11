@@ -13,4 +13,9 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
+    [r"Wie findest du (.*)",
+    ["Sehr gut und du?",
+    "Nicht so gut und du?",
+    "Ich möchte meine Meinung dazu nicht äußern"]]
+
 ]
