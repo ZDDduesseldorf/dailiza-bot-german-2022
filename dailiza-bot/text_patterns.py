@@ -17,4 +17,9 @@ psychobabble = [
     ["Brauchst du {0}?",
     "Willst du {0} essen?",
     "Wenn du {0} magst?"]],
+    
+    [r"Soll ich nach (.*) reisen?",
+    ["Warst du schon mal in {0}?",
+    "Würde es dir in {0} gefallen?",
+    "Ist {0} sicher?"]],
 ]
