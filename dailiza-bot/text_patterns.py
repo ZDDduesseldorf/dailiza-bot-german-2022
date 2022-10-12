@@ -13,4 +13,8 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
+    [r"Soll ich (.*) kaufen?",
+    ["Brauchst du {0}?",
+    "Willst du {0} essen?",
+    "Wenn du {0} magst?"]],
 ]
