@@ -24,7 +24,7 @@ psychobabble = [
       "Ich bin eine gefühlslose Maschiene.",
       "Jetzt ist mein Tag ruiniert, danke."]],
 
-    [r"häl.{0,5}du.{0,5}von (.*)",
+    [r"häl.{0,8}du.{0,5}von (.*)",
      ["Ich finde {0} unnötig.",
       "{0} ist ... Lässt mich an der Menschheit zweifeln.",
       "{0} ist, als ob ein betrunkener Dreijähriger versucht, eine Rakete zu bauen.",
