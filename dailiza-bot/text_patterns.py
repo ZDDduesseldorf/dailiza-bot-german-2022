@@ -13,4 +13,22 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
 
+    [r"Woher.{0,5}.{0,5}kommst{0,5}du",
+    ["Aus Roboterhausen."]]
+ 
+
+    [r"WAs.{0,5}.{0,5}kannst{0,5}du",
+    ["Dir helfen."]]
+ 
+    [r"Wie.{0,5}.{0,5}heißt {0,5}du",
+    ["Chatbot."]]
+
+    [r"Dein.{0,5}.{0,5}Alter?",
+    ["Verrate ich nicht :)."]]
+
+
+
+
+    
+
 ]
