@@ -27,4 +27,9 @@ psychobabble = [
     ["Würde es dich weiterbringen, {0} zu lesen?",
     "Interessiert dich {0}?",
     "Hast du {0} nicht schon gelesen?"]],
+    
+    [r"Soll ich mich mit (.*) treffen?",
+    ["Haben DU und {0} gemeinsame Interessen?",
+    "Würde es dir Spaß machen, {0} zu treffen?",
+    "Hast du {0} nicht erst gestern getroffen?"]],
 ]
