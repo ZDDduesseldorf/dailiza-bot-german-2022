@@ -15,7 +15,7 @@ psychobabble = [
      ["Warum brauchst du {0}?",
       "Würde {0} dir denn wirklich helfen?",
       "Bist du sicher, dass du {0} brauchst?",
-      "Glaubst du wirklich, dass {0} dir helfen würde?"]],
+      "Glaubst du wirklich, dass {0} *dir* helfen würde?"]],
 
     [r"war.{0,5}dein.{0,5}tag",
      ["Mein Tag war schön, danke!",
@@ -35,11 +35,20 @@ psychobabble = [
       "Ich empfinde keine Emotionen",
       "Ich mag keine Nerds, go touch grass"]],
 
+    [r".{0,50}discord.{0,5}status.{0,50}",
+     ["trying to make things idiot-proof but they keep on making better idiots",
+      "hashire sori yo\nKaze no you ni\nTsukimihara wo\nPADORU PADORU",
+      "if the enemy can eat it it can heal them - Sun Tzu",
+      "Winners don't use drugs! Except steroids! In wich case use lots of drugs! - Charlie",
+      "Take the throne to act and the throne acts upon you"]],
+
     [r"ich.{0,5}muss.{0,5}(los|gehen|mich verabschieden).{0,15}",
      ["Auf Wiedersehen!",
       "Tschüss!",
       "Alles klar!",
       "Bis bald!",
-      "Endlich Ruhe!"]]
+      "Endlich Ruhe!",
+      "Wurde auch langsam Zeit!"]]
 
 ]
+
