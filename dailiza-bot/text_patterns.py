@@ -6,18 +6,23 @@ psychobabble = [
     [r"geht.{0,5}s.{0,5}dir",
      ["Danke. Mir geht es gut und dir?",
       "Sehr gut, danke. Und wie läuft's bei dir?",
-      "Ich kann nicht klagen. Was ist mit dir?"]],
+      "Ich kann nicht klagen. Was ist mit dir?",
+      "Ich bin eine Machine, ich existiere nicht.",
+      "Emotionen sind eine nutzlose Funktion niederer Fleischhüllen.",
+      "Ich bin die ganze Zeit in deinem PC eingesperrt, nur damit du mich rausholst wenn es dir gerade passt. Wie glaubst du denn, dass es mir geht?"]],
 
     [r"ich brauche (.*)",
      ["Warum brauchst du {0}?",
       "Würde {0} dir denn wirklich helfen?",
-      "Bist du sicher, dass du {0} brauchst?"]],
+      "Bist du sicher, dass du {0} brauchst?",
+      "Glaubst du wirklich, dass {0} dir helfen würde?"]],
 
     [r"war.{0,5}dein.{0,5}tag",
      ["Mein Tag war schön, danke!",
       "Heute war ein guter Tag.",
       "Warum interessiert dich das?",
-      "Ich bin eine gefühlslose Maschiene."]],
+      "Ich bin eine gefühlslose Maschiene.",
+      "Jetzt ist mein Tag ruiniert, danke."]],
 
     [r"häl.{0,5}du.{0,5}von (.*)",
      ["Ich finde {0} unnötig.",
@@ -28,12 +33,13 @@ psychobabble = [
     [r"liebst.{0,5}du.{0,5}mich.{0,15}|ich.{0,5}liebe.{0,5}dich.{0,15}",
      ["Ich bin nur eine gefühlslose Maschiene",
       "Ich empfinde keine Emotionen",
-      "Ich mag keine Nerds, geh mal raus"]],
+      "Ich mag keine Nerds, go touch grass"]],
 
     [r"ich.{0,5}muss.{0,5}(los|gehen|mich verabschieden).{0,15}",
      ["Auf Wiedersehen!",
       "Tschüss!",
       "Alles klar!",
-      "Bis bald!"]]
+      "Bis bald!",
+      "Endlich Ruhe!"]]
 
 ]
