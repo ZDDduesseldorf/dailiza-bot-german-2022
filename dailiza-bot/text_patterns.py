@@ -23,5 +23,25 @@ psychobabble = [
     ["Weil",
     "Warum nicht?",
     "Ich will das so"]],
+	
+    [r"ich",
+    ["Ist mir egal",
+    "Warum sagst du mir das?",
+    "Kuemmert mich nicht!"]],
+
+    [r"hi",
+    ["bye",
+    "ich will nicht",
+    "Lass mich in ruhe!"]],
+
+    [r"hall(.*)",
+    ["bye",
+    "ich will nicht",
+    "Lass mich in ruhe!"]],
+
+    [r"he(.*)",
+    ["bye",
+    "ich will nicht",
+    "Lass mich in ruhe!"]],
 
 ]
