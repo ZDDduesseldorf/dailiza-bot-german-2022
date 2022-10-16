@@ -38,6 +38,11 @@ psychobabble = [
     "Ohh Sorryy",
     "Das tut mir leid"]],
 
+    [r"[bB]ot (.*)",
+    ["Meinst du mich?",
+    "Findest du es komisch, mit mir zu chatten?",
+    "Machst das dich glücklich, mit mir zu chatten?"]],
+
     [r"(.*)",
     ["Warum fragst du mich sowas?",
      "Diese Frage möchte ich nicht beantworten...",
