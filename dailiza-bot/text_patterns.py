@@ -43,7 +43,7 @@ psychobabble = [
     "Ich habe keine Gefühle, also weiß ich nicht was mein Lieblings{0} ist ",
     "Ich glaube nicht, dass irgendein Roboter eine Antwort darauf hat."]],
 
-    [r"exit",
+    [r"\b[Ee]xit\b",
     ["Bye!",
     "Auf wiedersehen!",
     "Tchuss"]],
@@ -52,7 +52,8 @@ psychobabble = [
     ["???",
     "Umm...Was für eine Frage ist das?",
     "Bist du okay???"]]
+    
+]
 
 
-
-neutral_responses = ["Sie sollten jemand anderen danach fragen.","Tut mir leid, leider ist das außer meines Fachgebiets.","Ich weiß nichts über dieses Thema, sorry."]
+neutral_responses = ["Sie sollten jemand anderen danach fragen.", "Tut mir leid, leider ist das außer meines Fachgebiets.", "Ich weiß nichts über dieses Thema, sorry."]

@@ -31,9 +31,12 @@ def run_dailiza_bot():
     """
     print("Hey Hallo! Ich bin Dailiza. Womit kann ich dir helfen?")
     user_input = ""
-    while "exit" not in user_input:
+    while True:
         user_input = input(">> ")
+        exit_ = re.findall(r"\b[Ee]xit\b", user_input)
         print(dailiza_answer(user_input))
+        if exit_:
+            break
 
 
 if __name__ == '__main__':
