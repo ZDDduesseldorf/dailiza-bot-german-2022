@@ -12,6 +12,7 @@ def dailiza_answer(user_input):
 
     # Test input string for all known text patter in pychobabble
     for pattern, responses in psychobabble:
+        #[(0,Ich),(1,brauche),(2,etwas)]
         match = re.search(pattern, str(user_input))
         do_i_know_this = False
         if match:
