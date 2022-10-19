@@ -29,6 +29,7 @@ def run_dailiza_bot():
     while "exit" not in user_input:
         user_input = input(">> ")
         print(dailiza_answer(user_input))
+        
 
 
 if __name__ == '__main__':
