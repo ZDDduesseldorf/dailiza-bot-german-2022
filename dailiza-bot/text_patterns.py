@@ -33,5 +33,4 @@ psychobabble = [
     "Ich kenne keinen, der {0} nicht mag! ",
     " {0} kann ich in meinem Leben nicht gebrauchen."]],
 
-
 ]
