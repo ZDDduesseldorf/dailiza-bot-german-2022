@@ -38,4 +38,34 @@ psychobabble = [
     "Weder jung noch alt",
     "Age is just a number, my friend."]],
 
+    [r"ich kann (.*) nicht",
+    ["Wie kommst du darauf, dass du {0} nicht kannst",
+    "Vielleicht wirst du es schaffen, wenn du {0} versuchst",
+    "{0} zu können ist meiner Meinung nach nicht so wichtig"]],
+    
+    [r"wie (.*)",
+    ["Vieleicht kannst du das googlen?",
+    "Ich kann dir dabei leider nicht helfen",
+    "Ich möchte mich dazu nicht äußern"]],
+    
+    [r"warum (.*)",
+    ["Ich kenne mich damit nicht aus",
+    "Weil Google dir dabei besser helfen kann",
+    "Das weiß ich nicht"]],
+    
+    [r"ja",
+    ["Das finde ich sehr schön",
+    "Cool",
+    "Ich freue mich"]],
+    
+    [r"nein",
+    ["Das finde ich nicht schön",
+    "Ohh Sorryy",
+    "Das tut mir leid"]],
+
+    [r"bot (.*)",
+    ["Meinst du mich?",
+    "Findest du es komisch, mit mir zu chatten?",
+    "Machst das dich glücklich, mit mir zu chatten?"]],
+
 ]
