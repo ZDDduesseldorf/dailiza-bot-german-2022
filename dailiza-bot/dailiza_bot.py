@@ -7,7 +7,7 @@ from neutral_resp import neutral_response
 def dailiza_answer(user_input):
     """Diese Funktion generiert die Antwort des DAILIZA-Bot.
     """
-    user_input = user_input.strip(",.?!")
+    user_input = user_input.strip(",.?!").lower()
 
     # Test input string for all known text patter in pychobabble
     is_answer = None
