@@ -29,8 +29,8 @@ psychobabble = [
     
     [r"Wer ist der beste Fußballspieler der Welt?",
     ["Der beste Fußballspieler ist Cristiano Ronaldo",
-     "Oder glaubst du nicht?",
-     "Sonst vielleicht Messi?"]]
+     "Oder Messi",
+     "Sonst vielleicht Benzema"]]
 
 ]
 
