@@ -31,6 +31,11 @@ psychobabble = [
     ["Der beste Fußballspieler ist Cristiano Ronaldo",
      "Oder Messi",
      "Sonst vielleicht Benzema"]]
+    
+    [r"wie hei[sß]s*t du?",
+    ["mein Name ist Dailiza",
+     "Ich heiße Dailiza und ich bin ein Bot",
+     "Ich bin Dailiza"]]
 
 ]
 
