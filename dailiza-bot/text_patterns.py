@@ -12,6 +12,30 @@ psychobabble = [
     ["Warum brauchst du {0}?",
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
+    
+    [r"[Ii]ch [Ww]ürde gern (.*)",
+    ["Warum willst du {0}?",
+     "Wird {0} dir denn wirklich helfen?",
+     "lonht {0} sich das?"]],
+    
+    [r"[Ww]ie [Ll]äuft.{0,5}s.{0,5}bei dir?",
+    ["Gut Danke. Und bei dir?",
+     "super. Sonst was kann ich für dich tun?"]],
+    
+    [r"[Ii]ch [Mm]uss (.*) [Ww]issen",
+    ["{0} ist nicht wichtig für dich, oder?",
+     "Bist du sicher, dass du {0} brauchst?",
+     "Würde {0} dir denn wirklich helfen?"]],
+    
+    [r"[Ww]er ist der beste [Ff]ußballspieler der Welt?",
+    ["Der beste Fußballspieler ist Cristiano Ronaldo",
+     "Oder Messi",
+     "Sonst vielleicht Benzema"]],
+    
+    [r"[Ww]ie [Hh]ei[sß]s*t du?",
+    ["mein Name ist Dailiza",
+     "Ich heiße Dailiza und ich bin ein Bot",
+     "Ich bin Dailiza"]]
 
     [r"[Ii]ch kann (.*) nicht",
     ["Wie kommst du darauf, dass du {0} nicht kannst",
@@ -56,3 +80,4 @@ psychobabble = [
      "Brauchst du irgendwas in deinem Leben?",
      "Können wir bitte das Thema wechseln?"]]
 ]
+
