@@ -2,7 +2,7 @@ import random
 import re
 from reflection import reflect
 from text_patterns import psychobabble
-from text_patterns import neutral_responses
+
 
 
 def dailiza_answer(user_input):

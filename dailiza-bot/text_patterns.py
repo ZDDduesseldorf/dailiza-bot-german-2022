@@ -35,7 +35,7 @@ psychobabble = [
     [r"[Ww]ie [Hh]ei[sß]s*t du?",
     ["mein Name ist Dailiza",
      "Ich heiße Dailiza und ich bin ein Bot",
-     "Ich bin Dailiza"]]
+     "Ich bin Dailiza"]],
 
     [r"[Ii]ch kann (.*) nicht",
     ["Wie kommst du darauf, dass du {0} nicht kannst",
@@ -78,7 +78,7 @@ psychobabble = [
      "Erzähl mir mal was über deine Eltern",
      "Bin ich ein Bot oder ein Mensch?",
      "Brauchst du irgendwas in deinem Leben?",
-     "Können wir bitte das Thema wechseln?"]]
+     "Können wir bitte das Thema wechseln?"]],
     
     [r"[Bb]ist du (.*)",
     ["Vielleicht, weiß ich auch nicht.",
