@@ -35,7 +35,7 @@ psychobabble = [
     [r"[Ww]ie [Hh]ei[sß]s*t du?",
     ["mein Name ist Dailiza",
      "Ich heiße Dailiza und ich bin ein Bot",
-     "Ich bin Dailiza"]]
+     "nenntr mich Dailiza"]]
 
 ]
 
