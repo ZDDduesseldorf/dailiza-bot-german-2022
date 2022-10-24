@@ -4,6 +4,7 @@ from reflection import reflect
 from text_patterns import psychobabble
 
 
+
 def dailiza_answer(user_input):
     """Generation of answers for DAILIZA-like bot.
 
@@ -17,6 +18,7 @@ def dailiza_answer(user_input):
     for pattern, responses in psychobabble:
         match = re.search(pattern.lower(), str(user_input).lower().strip())
         if match:
+            do_i_know_this = True
             rspns = random.choice(responses)
             return rspns.format(*[reflect(g) for g in match.groups()])
 
@@ -29,7 +31,6 @@ def run_dailiza_bot():
     while "exit" not in user_input:
         user_input = input(">> ")
         print(dailiza_answer(user_input))
-        
 
 
 if __name__ == '__main__':

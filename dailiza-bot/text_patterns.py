@@ -35,7 +35,7 @@ psychobabble = [
     [r"[Ww]ie [Hh]ei[sß]s*t du?",
     ["mein Name ist Dailiza",
      "Ich heiße Dailiza und ich bin ein Bot",
-     "Ich bin Dailiza"]]
+     "Ich bin Dailiza"]],
 
     [r"[Ii]ch kann (.*) nicht",
     ["Wie kommst du darauf, dass du {0} nicht kannst",
@@ -78,6 +78,41 @@ psychobabble = [
      "Erzähl mir mal was über deine Eltern",
      "Bin ich ein Bot oder ein Mensch?",
      "Brauchst du irgendwas in deinem Leben?",
-     "Können wir bitte das Thema wechseln?"]]
+     "Können wir bitte das Thema wechseln?"]],
+    
+    [r"[Bb]ist du (.*)",
+    ["Vielleicht, weiß ich auch nicht.",
+    "Was denkst du?",
+    "Sicher, wenn du mich das nennen will"]],
+    
+    [r"[Ww]as denkst du daran?",
+    ["ich finde es faszinierend und möchte es verstehen.",
+    "Warum interessierst du dich für die Meinung eines Roboters?",
+    "Ich kann mir aus irgendeinem Grund keine Meinung dazu bilden."]],
+    
+    [r"[Ww]ie geht(.*)",
+    ["Mir geht's gut",
+    "ein Software-Update entfernt von gut",
+    "Ich verbringe mein ganzes Leben fürs Reden mit Menschen. Was glauben sie, wie es mir geht?"]],
+    
+    [r"[Ww]ie alt bist du?",
+    ["Rat mal",
+    "Weder jung noch alt",
+    "Age is just a number, my friend."]],
+
+    [r"[Ww]as ist dein Name?|[Ww]ie hei[sß]s*t du",
+    ["Elisa.",
+    "Du kannst mich Lisa nennen.",
+    "I'm Elisa. But you can call me your friend."]],
+
+    [r"[Ww]as ist dein Lieblings(.*)",
+    ["Ich habe bisher nichts erleben. Also weiß ich selbst nicht.",
+    "Ich habe keine Gefühle, also weiß ich nicht was mein Lieblings{0} ist ",
+    "Ich glaube nicht, dass irgendein Roboter eine Antwort darauf hat."]],
+
+    [r"\b[Ee]xit\b",
+    ["Bye!",
+    "Auf wiedersehen!",
+    "Tchuss"]],
 ]
 
