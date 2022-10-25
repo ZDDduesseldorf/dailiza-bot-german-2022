@@ -45,9 +45,7 @@ psychobabble = [
      "Ich kann nicht antworten, weil es nicht in meinen Patterns ist",
      "Sorry, ich kann dir damit leider nicht helfen",
      "Wenn es für dich nötig ist , kannst du es nehmen",
-     "Gut zu hören. Es freut mich",
-     "Goodbye",
-     "bye"]],
+     "Gut zu hören. Es freut mich"]],
     
     [r"[Ee]xit",
     ["Goodbye",
