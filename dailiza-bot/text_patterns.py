@@ -37,6 +37,26 @@ psychobabble = [
      "Ich heiße Dailiza und ich bin ein Bot",
      "Ich bin Dailiza"]]
 
+    [r"[Ii]ch möchte (.*)",
+    ["Warum möchtest du {0}?",
+    "Würde {0} dich denn wirklich glücklich machen?",
+    "Ich kann dich verstehen, manchmal möchte ich ebenfalls  {0}."]],
+
+    [r"[Ii]ch lerne gerade (.*)",
+    ["Lernst du gerne {0}?",
+    "Ist {0} dein Lieblingsthema? ",
+    "Ich wäre auch gerne ein {0} Profi."]],
+
+    [r"[Ww]ie ist (.*) ",
+    ["Dass wüssten wir alle doch gerne.",
+    "Wie kommst du denn jetzt auf {0}? ",
+    " {0} ist mal so, mal so. Schwierig zu sagen..."]],
+
+    [r"[Mm]agst du (.*) ",
+    ["hm, lass mich mal überlegen ob ich {0} mag....   Irgendwie überfordert mich {0} manchmal.",
+    "Ich kenne keinen, der {0} nicht mag! ",
+    " {0} kann ich in meinem Leben nicht gebrauchen."]],
+
     [r"[Ii]ch kann (.*) nicht",
     ["Wie kommst du darauf, dass du {0} nicht kannst",
     "Vielleicht wirst du es schaffen, wenn du {0} versuchst",
@@ -79,5 +99,6 @@ psychobabble = [
      "Bin ich ein Bot oder ein Mensch?",
      "Brauchst du irgendwas in deinem Leben?",
      "Können wir bitte das Thema wechseln?"]]
+
 ]
 
