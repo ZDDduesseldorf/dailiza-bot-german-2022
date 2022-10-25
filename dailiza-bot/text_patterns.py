@@ -18,12 +18,12 @@ psychobabble = [
     "Nicht so gut und du?",
     "Ich möchte meine Meinung dazu nicht äußern"]],
 
-    [r"Was machst du?"
+    [r"Was machst du?",
      ["Nichts",
      "Ich Chatte mit dir",
      "Ich plane meine Weltherrschaft"]],
 
-    [r"Magst du (.*)"
-     ["Nein ich mag {0} nicht", "Ja ich mag {0}", "Mögen? ich liebe es {0}"]]
+    [r"Magst du (.*)",
+     ["Nein ich mag {0} nicht", "Ja ich mag {0}", "Moegen? ich liebe es {0}"]]
 
 ]
