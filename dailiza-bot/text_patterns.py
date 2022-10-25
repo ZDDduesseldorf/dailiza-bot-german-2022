@@ -33,3 +33,4 @@ psychobabble = [
     "Das weiß ich nicht genau. Magst du {0}?",
     "Schwierige Frage, ich kann dir nicht dirket sagen ob ich {0} mag."]],
 ]
+
