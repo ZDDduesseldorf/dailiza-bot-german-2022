@@ -16,21 +16,21 @@ psychobabble = [
     [r"Wie findest du (.*)",
     ["Sehr gut und du?",
     "Nicht so gut und du?",
-    "Ich möchte meine Meinung dazu nicht äußern"]],
+    "Ich möchte meine Meinung dazu nicht äußern!"]],
 
     [r"Was machst du?",
-    ["Nichts",
-     "Ich Chatte mit dir",
-     "Ich plane meine Weltherrschaft"]],
+    ["Nichts.",
+     "Ich Chatte mit dir.",
+     "Ich plane meine Weltherrschaft!"]],
 
     [r"Magst du (.*)",
-    ["Nein ich mag {0} nicht",
-     "Ja ich mag {0}",
-     "Moegen? ich liebe{0}"]],
+    ["Nein ich mag {0} nicht.",
+     "Ja ich mag {0}.",
+     "Mögen? ich liebe {0}."]],
 
     [r"Kannst du (.*)",
-    ["Nein, ich kann {0} nicht, ich bin nur ein Chatbot",
-     "Ja natürlich kann ich {0}",
-     "Ich glaube diese Frage kannst du dir selbst beantworten"]]
+    ["Nein, ich kann {0} nicht, ich bin nur ein Chatbot.",
+     "Ja natürlich kann ich {0}.",
+     "Ich glaube diese Frage kannst du dir selbst beantworten."]]
 
 ]
