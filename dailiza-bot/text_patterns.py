@@ -35,7 +35,21 @@ psychobabble = [
     [r"[Ww]ie [Hh]ei[sß]s*t du?",
     ["mein Name ist Dailiza",
      "Ich heiße Dailiza und ich bin ein Bot",
-     "Ich bin Dailiza"]]
+     "du kannst mich Dailiza nennen"]],
+    
+    [r"(.*)",
+    ["Es freut mich, dass es dir gut geht",
+     "Bei mir läuft alles perfekt",
+     "Können wir bitte das Thema wechseln?",
+     "Könntest du mir bitte mehr darüber erzählen?",
+     "Ich kann nicht antworten, weil es nicht in meinen Patterns ist",
+     "Sorry, ich kann dir damit leider nicht helfen",
+     "Wenn es für dich nötig ist , kannst du es nehmen",
+     "Gut zu hören. Es freut mich"]],
+    
+    [r"[Ee]xit",
+    ["Goodbye",
+     "bye"]]
 
     [r"[Ii]ch möchte (.*)",
     ["Warum möchtest du {0}?",
