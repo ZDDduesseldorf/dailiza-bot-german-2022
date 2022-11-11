@@ -2,7 +2,7 @@ import random
 import re
 from reflection import reflect
 from text_patterns import psychobabble
-
+from neutral_resp import neutral_response
 
 def dailiza_answer(user_input):
     """Generation of answers for DAILIZA-like bot.
@@ -12,14 +12,19 @@ def dailiza_answer(user_input):
     user_input
         String with user input for DAILIZA to respond to.
     """
+    user_input = user_input.strip(",.?!").lower()
 
     # Test input string for all known text patter in pychobabble
+    is_answer = None
     for pattern, responses in psychobabble:
         match = re.search(pattern.lower(), str(user_input).lower().strip())
         if match:
             rspns = random.choice(responses)
-            return rspns.format(*[reflect(g) for g in match.groups()])
-
+            is_answer = True
+            return rspns.format(*[reflect(g) for g in match.groups()])    
+    if is_answer is not True:
+        rspns = random.choice(neutral_response)
+        return str(rspns)
 
 def run_dailiza_bot():
     """Starts the DAILIZA bot.
@@ -28,6 +33,11 @@ def run_dailiza_bot():
     user_input = ""
     while "exit" not in user_input:
         user_input = input(">> ")
+        if "Bye".lower() in user_input.lower():
+            print("Bye ;)")
+            break
+        if "exit" in user_input.lower():
+            break
         print(dailiza_answer(user_input))
         
 
