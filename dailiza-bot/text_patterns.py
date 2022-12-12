@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Here we collect the chatbot text patterns.
 """
@@ -36,6 +37,36 @@ psychobabble = [
     ["mein Name ist Dailiza",
      "Ich heiße Dailiza und ich bin ein Bot",
      "Ich bin Dailiza"]],
+
+    [r"was machst",
+    ["Warum sollte ich was machen?",
+    "Ich säubere meine digitale schaltkreise",
+    "Der Robodoggo hat meine sachen geklaut"]],
+
+    [r"warum",
+    ["Weil",
+    "Warum nicht?",
+    "Ich will das so"]],
+	
+    [r"ich",
+    ["Ist mir egal",
+    "Warum sagst du mir das?",
+    "Kuemmert mich nicht!"]],
+
+    [r"hi",
+    ["bye",
+    "ich will nicht",
+    "Lass mich in ruhe!"]],
+
+    [r"hall(.*)",
+    ["bye",
+    "ich will nicht",
+    "Lass mich in ruhe!"]],
+
+    [r"he(.*)",
+    ["bye",
+    "ich will nicht",
+    "Lass mich in ruhe!"]],
 
     [r"[Ii]ch möchte (.*)",
     ["Warum möchtest du {0}?",
