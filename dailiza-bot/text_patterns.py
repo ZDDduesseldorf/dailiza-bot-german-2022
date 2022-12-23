@@ -13,6 +13,11 @@ psychobabble = [
     "Würde {0} dir denn wirklich helfen?",
     "Bist du sicher, dass du {0} brauchst?"]],
     
+    [r"[Ww]as ist der [Ss]inn des [Ll]ebens?",
+    ["42",
+    "Diese Frage kann ich dir nicht beantworten.",
+    "Frag mich später nochmal."]],
+    
     [r"[Ii]ch [Ww]ürde gern (.*)",
     ["Warum willst du {0}?",
      "Wird {0} dir denn wirklich helfen?",
