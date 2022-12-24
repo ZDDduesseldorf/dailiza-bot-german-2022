@@ -23,6 +23,11 @@ psychobabble = [
     "Du solltest lieber lernen.",
     "Ich gucke keine Filme."]],
     
+    [r"[Ww]as ist [Dd]eine [Ll]ieblingsfarbe?",
+    ["Meine Lieglingsfarbe ist Rot.",
+    "Ich bin ein Chatbot, ich habe keine persönlichen Vorlieben.",
+    "Meine Lieblingsfarbe ist Blau."]],
+    
     [r"[Ii]ch [Ww]ürde gern (.*)",
     ["Warum willst du {0}?",
      "Wird {0} dir denn wirklich helfen?",
