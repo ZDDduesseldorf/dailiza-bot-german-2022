@@ -28,6 +28,11 @@ psychobabble = [
     "Ich bin ein Chatbot, ich habe keine persönlichen Vorlieben.",
     "Meine Lieblingsfarbe ist Blau."]],
     
+    [r"[Ww]eclhe [Ss]prachen sprichst [Dd]u?",
+    ["Ich spreche ausschließlich deutsch.",
+    "Ich spreche die Codesprache Python.",
+    "Ich spreche nicht, ich schreibe nur."]],
+    
     [r"[Ii]ch [Ww]ürde gern (.*)",
     ["Warum willst du {0}?",
      "Wird {0} dir denn wirklich helfen?",
