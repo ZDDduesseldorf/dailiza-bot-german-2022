@@ -18,6 +18,11 @@ psychobabble = [
     "Diese Frage kann ich dir nicht beantworten.",
     "Frag mich später nochmal."]],
     
+    [r"[Kk]annst [Dd]u mir einen [Ff]ilm empfehlen?",
+    ["Inception.",
+    "Du solltest lieber lernen.",
+    "Ich gucke keine Filme."]],
+    
     [r"[Ii]ch [Ww]ürde gern (.*)",
     ["Warum willst du {0}?",
      "Wird {0} dir denn wirklich helfen?",
