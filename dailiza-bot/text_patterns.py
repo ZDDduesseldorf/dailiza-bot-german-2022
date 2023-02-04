@@ -40,25 +40,25 @@ psychobabble = [
 
     [r" Wann kommt das neue Cyberpunk?",
     ["es kommt erst die nächsten Jahre raus",
-     "Okey freust du dich schon?",
-     "Ja klar freue ich mich"]],
+     "Ich weiß nicht wann es kommt",
+     "Weiß ich nicht aber ich freue mich auch schon"]],
     
     
-    [r"Ich will mir heute das neue Album von Cro anhören",
-    ["Warum möchtest du dir das Album anhören?",
-    "Weil ich den Künstler sehr gut finde",
-    "Ja dann hör du dir dann später das Album mal an"]],
+    [r" Soll ich mir heute das neue Album von Cro anhören",
+    ["Ja klar wieso nicht?",
+    "Nein, ich mag den Künstler nicht",
+    "Ja ich finde schon, dann hör du dir später das Album mal an"]],
 
 
     [r"Wann kommt eine neue Kollektion von LFDY?",
     ["Nächsten Sommer die Winterkollektion"],
-    "Wie wird die Kollektion aussehen?",
-    "Es werden Winterjacken, sowie Hoodies rauskommen"]],
+    "Weiß nicht, hoffentlich bald",
+    "Ich habe gehört das Sie nächstes Jahr raus kommen soll, aber weiß nicht wann genau"]],
  
     [r"Ich will heute Andor schauen",
     ["Wieso willst du dir genau Andor anschauen, wenn es auch andere Serien gibt?",
-    "Ich finde es cool, aber was schlägst du denn vor?",
-    "Ich finde z.B Animes sehr gut."]],
+    "Ich finde es eine coole Idee",
+    "Naja ich finde z.B Animes viel besser."]],
    
 
     [r"[Ii]ch möchte (.*)",
