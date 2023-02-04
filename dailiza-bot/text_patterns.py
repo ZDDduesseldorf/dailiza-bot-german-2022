@@ -1,3 +1,4 @@
+
 """
 Here we collect the chatbot text patterns.
 """
@@ -36,6 +37,29 @@ psychobabble = [
     ["mein Name ist Dailiza",
      "Ich heiße Dailiza und ich bin ein Bot",
      "Ich bin Dailiza"]],
+
+    [r" Wann kommt das neue Cyberpunk?",
+    ["es kommt erst die nächsten Jahre raus",
+     "Ich weiß nicht wann es kommt",
+     "Weiß ich nicht aber ich freue mich auch schon"]],
+    
+    
+    [r" Soll ich mir heute das neue Album von Cro anhören",
+    ["Ja klar wieso nicht?",
+    "Nein, ich mag den Künstler nicht",
+    "Ja ich finde schon, dann hör du dir später das Album mal an"]],
+
+
+    [r"Wann kommt eine neue Kollektion von LFDY?",
+    ["Nächsten Sommer die Winterkollektion"],
+    "Weiß nicht, hoffentlich bald",
+    "Ich habe gehört das Sie nächstes Jahr raus kommen soll, aber weiß nicht wann genau"]],
+ 
+    [r"Ich will heute Andor schauen",
+    ["Wieso willst du dir genau Andor anschauen, wenn es auch andere Serien gibt?",
+    "Ich finde es eine coole Idee",
+    "Naja ich finde z.B Animes viel besser."]],
+   
 
     [r"[Ii]ch möchte (.*)",
     ["Warum möchtest du {0}?",
