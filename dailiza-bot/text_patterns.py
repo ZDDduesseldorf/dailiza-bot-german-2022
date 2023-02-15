@@ -163,5 +163,27 @@ psychobabble = [
     [r"Kannst du (.*)",
     ["Nein, ich kann {0} nicht, ich bin nur ein Chatbot.",
      "Ja natürlich kann ich {0}.",
-     "Ich glaube diese Frage kannst du dir selbst beantworten."]]
+     "Ich glaube diese Frage kannst du dir selbst beantworten."]],
+
+    [r"Ich will (.*)",
+    ["Warum willst du {0}?",
+    "Würde {0} dir denn wirklich helfen?",
+    "Bist du sicher, dass du {0} willst?"]],
+
+    [r"Ich möchte (.*)",
+    ["Warum möchtest du {0}?",
+    "Würde {0} dir denn wirklich helfen?",
+    "Bist du sicher, dass du {0} möchtest?"]],
+
+    [r"Ich denke (.*)",
+    ["Warum denkst du an {0}?",
+    "Ich denke nie an {0}.",
+    "Bist du sicher, dass du an {0} denkst?"]],
+
+    [r"Ich würde gern (.*)",
+    ["Warum würdest du gern {0}?",
+    "Würde {0} dir denn wirklich helfen?",
+    "Bist du sicher, dass du {0} gern würdest?",
+    "{0} würde ich auch gern."]]
 ]
+
